@@ -42,7 +42,31 @@ h1{
   color: white;
   font-size: 60px;
   font-weight: 600;
-  margin: 25px 0;
+  margin: 20px 0;
+}
+.icone{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-star{
+  font-size: 34px;
+  color: white;
+}
+.icone-line{
+  width: 100%;
+  max-width: 130px;
+  height: 4px;
+  background: white;
+  border-radius: 1px;
+}
+.marg-dx{
+  margin-right: 15px;
+}
+.marg-sx{
+  margin-left: 15px;
 }
 
 .par-header{
