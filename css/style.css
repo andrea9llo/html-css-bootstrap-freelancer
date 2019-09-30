@@ -2,6 +2,12 @@ nav{
   background: #2c3e50;
   padding: 35px 0;
 }
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
 a:hover{
   text-decoration: none;
 }
@@ -33,6 +39,7 @@ a:hover{
 .position-cent{
   text-align: center;
   background: #1abc9c;
+  margin-top: 106px;
 }
 .avatar{
   max-width: 250px;
@@ -49,10 +56,11 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .fa-star{
-  font-size: 34px;
+  font-size: 32px;
   color: white;
 }
 .icone-line{
@@ -74,4 +82,62 @@ h1{
   font-size: 25px;
   font-weight: 600;
   margin: 25px 0 90px;
+}
+
+
+/* blocco PORTFOLIO */
+
+.portofolio{
+  margin-bottom: 70px;
+}
+.center{
+  text-align: center;
+  margin-top: 50px;
+}
+h2{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+.color{
+  color: #2c3e50;
+}
+.color1{
+  background: #2c3e50;
+}
+.larghezza{
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* blocco about */
+.about{
+  background: #1abc9c;
+}
+.misure{
+  width: 50%;
+  margin: 0 auto;
+}
+#color-white{
+  color: white;
+}
+.par-about{
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 50px;
+}
+.download-center{
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+.download{
+  padding: 2%;
+  font-size: 20px;
+  background: none;
+  color: white;
+  border: solid 2px #f8f9fa;
 }
