@@ -1,0 +1,18 @@
+nav{
+  background: #2c3e50;
+  padding: 20px 0;
+}
+a{
+  text-decoration: none;
+}
+.nav-lista{
+  display: inline-block;
+  padding: 0 2%;
+}
+.menu-nav{
+  text-align: right;
+}
+.text-nav{
+  color: white;
+  font-size: 20px;
+}
