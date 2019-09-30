@@ -141,3 +141,18 @@ h2{
   color: white;
   border: solid 2px #f8f9fa;
 }
+/* blocco contact */
+.form-agg{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 26px;
+}
+.margin-button{
+  margin-bottom: 150px;
+}
+.send{
+  background-color: #148f77;
+  padding: 3%;
+  font-size: 20px;
+  border: solid 2px #12846e;
+  color: white;
+}
