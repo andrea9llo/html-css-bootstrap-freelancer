@@ -15,15 +15,21 @@
     <nav>
       <div class="container">
         <div class="row">
-          <div class="col-xs-4 col-sm-6">
+          <div class="col-xs-6">
             <a class="text-nav" href="#">START BOOTSTRAP</a>
           </div>
-          <div class="col-xs-8 col-sm-6">
-            <ul class="menu-nav">
-              <li class="nav-lista"><a class="text-nav2" href="#">PORTFOLIO</a></li>
-              <li class="nav-lista"><a class="text-nav2" href="#">ABOUT</a></li>
-              <li class="nav-lista"><a class="text-nav2" href="#">CONTACT</a></li>
-            </ul>
+          <div class="col-xs-6">
+            <div class="nav-bot">
+              <a id="botton-nav" class="btn btn-default" href="#" role="button">MENU <i class="fas fa-bars"></i></a>
+            </div>
+            <div class="nav-lg">
+              <ul class="menu-nav">
+                <li class="nav-lista"><a class="text-nav2" href="#portfolio">PORTFOLIO</a></li>
+                <li class="nav-lista"><a class="text-nav2" href="#about">ABOUT</a></li>
+                <li class="nav-lista"><a class="text-nav2" href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+
 
           </div>
 
@@ -55,7 +61,7 @@
     </header>
 
     <!-- blocco PORTFOLIO-->
-    <section class="portofolio">
+    <section id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 center">
@@ -95,7 +101,7 @@
 
 
     <!-- blocco about -->
-    <section class="about">
+    <section id="about">
       <div class="container misure">
         <div class="row">
           <div class="col-xs-12 center">
@@ -125,7 +131,7 @@
     </section>
 
     <!-- blocco contact -->
-    <section>
+    <section id="contact">
       <div class="container misure">
           <div class="row">
             <div class="col-xs-12 center">
@@ -166,6 +172,53 @@
       </div>
 
     </section>
+
+
+    <!-- footer -->
+    <footer>
+      <!-- footer sup -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 foot-cent">
+            <h4>LOCATION</h4>
+            <p class="par-foot">2215 John Daniel Drive <br> Clark, MO 65243</p>
+          </div>
+          <div class="col-xs-12 col-md-4 foot-cent">
+            <h4>AROUND THE WEB</h4>
+            <div class="social">
+              <div class="social-cerchio">
+                <i class="fab fa-fw fa-facebook-f"></i>
+              </div>
+              <div class="social-cerchio">
+                <i class="fab fa-fw fa-twitter"></i>
+              </div>
+              <div class="social-cerchio">
+                <i class="fab fa-fw fa-linkedin-in"></i>
+              </div>
+              <div class="social-cerchio">
+                <i class="fab fa-fw fa-dribbble"></i>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 foot-cent">
+            <h4>ABOUT FREELANCER</h4>
+            <p class="par-foot">Freelance is a free to use, MIT licensed Bootstrap theme created by <a id="start-boot" href="#">Start Bootstrap</a> .</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+      <!-- footer inf -->
+
+
+
+    </footer>
 
   </body>
 </html>

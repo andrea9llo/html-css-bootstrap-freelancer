@@ -13,10 +13,35 @@ a:hover{
 }
 .nav-lista{
   display: inline-block;
+  list-style-type: none;
   padding: 0 2%;
 }
-.menu-nav{
+.menu-nav , .nav-bot{
   text-align: right;
+}
+
+
+#botton-nav{
+  color: white;
+  background:  #1abc9c;
+  padding: 3%;
+  border: none;
+}
+@media screen and (max-width:991px){
+  .nav-lg{
+    display: none;
+  }
+  .nav-bot{
+    display: block;
+  }
+}
+@media screen and (min-width:992px){
+  .nav-lg{
+    display: block;
+  }
+  .nav-bot{
+    display: none;
+  }
 }
 .text-nav{
   color: white;
@@ -39,7 +64,7 @@ a:hover{
 .position-cent{
   text-align: center;
   background: #1abc9c;
-  margin-top: 106px;
+  margin-top: 105px;
 }
 .avatar{
   max-width: 250px;
@@ -87,7 +112,7 @@ h1{
 
 /* blocco PORTFOLIO */
 
-.portofolio{
+#portfolio{
   margin-bottom: 70px;
 }
 .center{
@@ -113,7 +138,7 @@ h2{
 }
 
 /* blocco about */
-.about{
+#about{
   background: #1abc9c;
 }
 .misure{
@@ -151,8 +176,47 @@ h2{
 }
 .send{
   background-color: #148f77;
-  padding: 3%;
-  font-size: 20px;
+  opacity: 0.8;
+  padding: 2% 3%;
+  font-size: 22px;
   border: solid 2px #12846e;
   color: white;
+}
+
+/* footer */
+
+footer{
+  background: #2c3e50;
+  padding: 60px 0;
+}
+.foot-cent{
+  text-align: center;
+}
+h4{
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.par-foot{
+  font-size: 20px;
+  color: white;
+}
+#start-boot{
+  color: #1abc9c;
+}
+#start-boot:hover{
+  color: #1abc9c;
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.social{
+  font-size: 20px;
+  color: white;
+}
+.social-cerchio{
+  display: inline-block;
+  border: solid white 2px;
+  border-radius: 50%;
+  padding: 12px;
 }
