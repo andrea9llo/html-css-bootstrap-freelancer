@@ -1,6 +1,6 @@
 nav{
   background: #2c3e50;
-  padding: 35px 0;
+  padding: 15px 0;
 }
 nav{
   position: fixed;
@@ -19,7 +19,9 @@ a:hover{
 .menu-nav , .nav-bot{
   text-align: right;
 }
-
+.nav-lg{
+  padding: 5px 0 0;
+}
 
 #botton-nav{
   color: white;
@@ -64,7 +66,7 @@ a:hover{
 .position-cent{
   text-align: center;
   background: #1abc9c;
-  margin-top: 105px;
+  margin-top: 65px;
 }
 .avatar{
   max-width: 250px;
@@ -185,7 +187,7 @@ h2{
 
 /* footer */
 
-footer{
+.footer-sup{
   background: #2c3e50;
   padding: 60px 0;
 }
@@ -219,4 +221,12 @@ h4{
   border: solid white 2px;
   border-radius: 50%;
   padding: 12px;
+}
+/* footer inf */
+.copyright{
+  background: #1a252f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: italic;
 }
